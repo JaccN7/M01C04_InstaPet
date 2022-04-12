@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaPet - Solicitar Consulta</title>
+
+    <meta name="author" content="JaccN7">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon (Icono para la pestaña del navegador)-->
+    <link rel="icon" href="images/cat.ico">
+
+</head>
+
+<body>
+
+    <div>
+
+        <span>
+
+            <a href="index.html"><h1 class="titulos">InstaPet</h1></a>
+            <h2 class="titulos">Consultas</h2>
+            <hr />
+            <br />
+            <p class="descrip">Desde esta sección podrás ver un mapa desde el cual podrás ver la ubicación de las veterinarias asociadas a Instapet. También podrás solicitar asistencia médica de alguno de los profesionales que colaboran con nosotros.</p>
+            <br />
+            <div class="alinearCentro""><iframe width=" 85%" height="400px"
+                src="https://www.youtube.com/embed/wnjS5zbb43Y" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+
+        </span>
+
+        <span>
+            <div>
+
+                <p class="alinearCentro">
+                <nav>
+                    <ul id="ul">
+                        <li><a href='#'>INGRESAR</a></li>
+                        <li><a href='index.html'>REGISTRAR</a></li>
+                        <li><a href='consulta.html'>CONTACTO</a></li>
+                    </ul>
+                </nav>
+                </p>
+
+                <h2 class="titulos alinearCentro">Veterinarias Cercanas</h2>
+
+                <p class="alinearCentro"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1247.8274213016123!2d-70.73031449279753!3d-32.754080867778846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968816c5400157bf%3A0xa20c2aa84291fb88!2sVetcare!5e0!3m2!1ses-419!2scl!4v1649802725297!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+                <form class="form" method="GET" action="#">
+                    <h2 class="titulos">Consulta Médica</h2>
+                    <label>Nombre Tutor:
+                        <input  class="input" type="text" name="nombreTutor" placeholder="Escriba el nombre del tutor de la Mascota"
+                            required>
+                        </input>
+                    </label>
+                    <br /><br />
+                    <label>Teléfono:
+                        <input class="input" type="number" name="fonoTutor" placeholder="9 87654321 (9 números)" required>
+                        </input>
+                    </label>
+                    <br /><br />
+                    <label>Correo Eléctronico:
+                        <input class="input" type="email" name="emailTutor" placeholder="Escribe su email" required>
+                        </input>
+                    </label>
+                    <br /><br />
+                    <label>Motivo Consulta:
+                        <textarea placeholder="Escriba el motivo de su consulta, especifique los síntomas detectados, tratamientos aplicados, cantidad de días que ha estado enfermo, etc" name="motivoConsulta" rows="4" cols="60"
+                            required></textarea>
+                    </label>
+                    <br /><br />
+                    <label>
+                        <input type="checkbox" name="condiciones" required/>Acepta los <a href="#">Términos y Condiciones</a>
+                   </label>
+                    <br />
+                    <br />
+                    <button>Registrar</button>
+
+                </form>
+            </div>
+        </span>
+
+    </div>
+</body>
+
+</html>

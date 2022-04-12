@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instapet - Registro</title>
+
+    <meta name="author" content="JaccN7">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon (Icono para la pestaña del navegador)-->
+    <link rel="icon" href="images/cat.ico">
+
+</head>
+
+<body>
+
+    <div>
+
+        <span>
+
+            <a href="index.html"><h1 class="titulos">InstaPet</h1></a>
+            <hr />
+            <br />
+            <p class="descrip">Bienvenido a InstaPet - Una forma simple, divertida y creativa de capturar, editar y
+                compartir fotos, videos y mensajes con amigos y familiares.</p>
+            <br />
+            <div class="alinearCentro""><img src=" images/mascotas.png" class="imagen"></div>
+
+        </span>
+
+        <span>
+            <div>
+
+                <p class="alinearCentro"><nav>
+					<ul id="ul">
+                        <li><a href='#'>INGRESAR</a></li>
+                        <li><a href='index.html'>REGISTRAR</a></li>
+						<li><a href='consulta.html'>CONTACTO</a></li>	
+					</ul>
+				</nav></p>
+
+                <form class="form" method="GET" action="#">
+                    <h2 class="titulos">Registro Mascota</h2>
+                    <label>Nombre Mascota:
+                        <input class="input" type="text" name="nombreMascotas" placeholder="Escribe el Nombre de tu Mascota" required>
+                        </input>
+                    </label>
+                    <br /><br />
+                    <label>Edad Mascota:
+                        <input class="input" type="number" name="edadMascota" placeholder="Escribe la edad de tu Mascota" max="25" required>
+                        </input>
+                    </label> 
+                    <br /><br />
+                    <label>Color Mascota:
+                        <input  type="color" name="colorMascota" value="#000000" required></label>
+                    <br /><br />
+                    <label>Correo Eléctronico:
+                        <input class="input" type="email" name="emailAsociado" placeholder="Escribe el email asociado a tu Mascota"
+                            required>
+                        </input>
+                    </label>
+                    <br /><br />
+                    <label>Contraseña:
+                        <input class="input" type="password" name="contraseña" placeholder="Escribe la contraseña">
+                        </input>
+                    </label>
+                    <br />
+                    <br />
+                    <button>Registrar</button>
+                    
+                </form>
+            </div>
+        </span>
+
+    </div>
+</body>
+
+</html>
